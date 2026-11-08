@@ -1,0 +1,25 @@
+PS C:\Users\Kavana N\OneDrive\Desktop\task4_chatbot> python chatbot.py
+========================================
+       WELCOME TO AI CHATBOT
+========================================
+Ask about courses, fees, placements, or hours.
+Type 'exit' to stop the chatbot.
+
+You: hello
+Bot: Hello! Welcome to our AI chatbot.
+You: What courses do you offer?
+Bot: We offer Python, Java, AI, Machine Learning, and Web Development.
+You: Hello, tell me about placements and jobs
+Bot: Hello! Welcome to our AI chatbot.
+You: What is the weather today?
+Bot: Sorry, I didn't understand. Please ask about courses, fees, placements, or hours.
+You: exit
+Bot: Goodbye! Have a great day!
+PS C:\Users\Kavana N\OneDrive\Desktop\task4_chatbot> 
+
+
+
+
+
+
+
