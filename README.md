@@ -40,7 +40,7 @@ task4_chatbot/
 │
 ├── chatbot.py
 ├── README.md
-└── task4_output.png
+└── task4_output
 ```
 
 ## 7. How It Works
@@ -50,8 +50,8 @@ task4_chatbot/
 4. The chatbot displays the matching response.
 5. The process continues until the user types `exit`.
 
-## 8. Output Screenshot
-The `task4_output.png` file shows the chatbot running successfully in the terminal.
+## 8. Output 
+The `task4_output` file shows the chatbot running successfully in the terminal.
 
 ## 9. Conclusion
 This project demonstrates basic Python programming, string handling, regular expressions, conditional logic, and interactive terminal applications.
