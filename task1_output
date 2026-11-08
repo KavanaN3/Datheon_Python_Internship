@@ -1,0 +1,166 @@
+PS C:\Users\Kavana N\OneDrive\Desktop\task1_hangman> python hangman.py
+========================================
+       WELCOME TO HANGMAN GAME
+========================================
+
+     -----
+     |   |
+     O   |
+    /|\  |
+    / \  |
+         |
+    =========
+    
+Word: _ _ _ _ _ _ _ _ 
+Guessed letters: []
+Remaining attempts: 6
+Guess a letter: P
+Correct guess!
+
+
+     -----
+     |   |
+     O   |
+    /|\  |
+    / \  |
+         |
+    =========
+    
+Word: _ _ _ P _ _ _ _ 
+Guessed letters: ['P']
+Remaining attempts: 6
+Guess a letter: Y
+Wrong guess!
+
+
+     -----
+     |   |
+     O   |
+    /|\  |
+    /    |
+         |
+    =========
+    
+Word: _ _ _ P _ _ _ _ 
+Guessed letters: ['P', 'Y']
+Remaining attempts: 5
+Guess a letter: T
+Correct guess!
+
+
+     -----
+     |   |
+     O   |
+    /|\  |
+    /    |
+         |
+    =========
+    
+Word: _ _ _ P _ T _ _ 
+Guessed letters: ['P', 'T', 'Y']
+Remaining attempts: 5
+Guess a letter: H
+Wrong guess!
+
+
+     -----
+     |   |
+     O   |
+    /|\  |
+         |
+         |
+    =========
+    
+Word: _ _ _ P _ T _ _ 
+Guessed letters: ['H', 'P', 'T', 'Y']
+Remaining attempts: 4
+Guess a letter: O
+Correct guess!
+
+
+     -----
+     |   |
+     O   |
+    /|\  |
+         |
+         |
+    =========
+    
+Word: _ O _ P _ T _ _ 
+Guessed letters: ['H', 'O', 'P', 'T', 'Y']
+Remaining attempts: 4
+Guess a letter: N
+Wrong guess!
+
+
+     -----
+     |   |
+     O   |
+    /|   |
+         |
+         |
+    =========
+    
+Word: _ O _ P _ T _ _ 
+Guessed letters: ['H', 'N', 'O', 'P', 'T', 'Y']
+Remaining attempts: 3
+Guess a letter: A
+Wrong guess!
+
+
+     -----
+     |   |
+     O   |
+     |   |
+         |
+         |
+    =========
+    
+Word: _ O _ P _ T _ _ 
+Guessed letters: ['A', 'H', 'N', 'O', 'P', 'T', 'Y']
+Remaining attempts: 2
+Guess a letter: B
+Wrong guess!
+
+
+     -----
+     |   |
+     O   |
+         |
+         |
+         |
+    =========
+    
+Word: _ O _ P _ T _ _ 
+Guessed letters: ['A', 'B', 'H', 'N', 'O', 'P', 'T', 'Y']
+Remaining attempts: 1
+Guess a letter: C
+Correct guess!
+
+
+     -----
+     |   |
+     O   |
+         |
+         |
+         |
+    =========
+    
+Word: C O _ P _ T _ _ 
+Guessed letters: ['A', 'B', 'C', 'H', 'N', 'O', 'P', 'T', 'Y']
+Remaining attempts: 1
+Guess a letter: D
+Wrong guess!
+
+
+     -----
+     |   |
+         |
+         |
+         |
+         |
+    =========
+    
+GAME OVER! You lost.
+The correct word was: COMPUTER
+PS C:\Users\Kavana N\OneDrive\Desktop\task1_hangman> 

@@ -1,59 +1,55 @@
-# Task 4: Rule-Based Interactive Terminal Assistant
+# Task 1: Hangman Word Guessing Game
 
-## 1. Project Description
-This project is a simple rule-based interactive chatbot developed using Python. It allows users to interact with a terminal assistant by asking questions about courses, fees, placements, and working hours.
+## Project Description
+This project is a simple console-based Hangman Word Guessing Game developed using Python. The player must guess a hidden word by entering one letter at a time.
 
-The chatbot identifies user questions using keyword matching and provides predefined responses.
+The player gets a maximum of 6 incorrect attempts to guess the word correctly.
 
-## 2. Features
-- Responds to greetings.
-- Provides information about courses.
-- Answers questions about fees.
-- Provides placement information.
-- Shares working hours.
-- Handles unknown questions with a default response.
-- Allows users to exit the chatbot.
+## Features
+- Random word selection.
+- Maximum of 6 incorrect attempts.
+- Displays guessed letters.
+- Prevents duplicate guesses from reducing attempts.
+- Validates user input.
+- Displays a winning or losing message.
 
-## 3. Technologies Used
+## Technologies Used
 - Python 3
-- Regular Expressions (`re` module)
+- Random module
 
-## 4. Installation Instructions
-1. Install Python 3.
+## Installation
+1. Install Python 3 on your computer.
 2. Download or clone this project.
-3. Open the project folder in Visual Studio Code.
-4. Open the terminal.
+3. Open the project folder in VS Code.
 
-## 5. How to Run
-Execute the following command:
+## How to Run
+Open the terminal in the project folder and execute:
 
 ```bash
-python chatbot.py
+python hangman.py
 ```
 
-Start asking questions in the terminal. Type `exit` to stop the chatbot.
+Follow the instructions and enter one alphabet letter at a time.
 
-## 6. Project Architecture
+## Project Structure
 
 ```text
-task4_chatbot/
+task1_hangman/
 │
-├── chatbot.py
-├── README.md
-└── task4_output
+├── hangman.py
+├── task1_output
+└── README.md
 ```
 
-## 7. How It Works
-1. The chatbot starts and displays a welcome message.
-2. The user enters a question.
-3. The program checks the input against predefined keywords and patterns.
-4. The chatbot displays the matching response.
-5. The process continues until the user types `exit`.
+## How the Game Works
+1. The program selects a random word.
+2. The player guesses one letter at a time.
+3. Correct guesses reveal the matching letters.
+4. Incorrect guesses reduce the remaining attempts.
+5. The game ends when the player guesses the word or uses all 6 incorrect attempts.
 
-## 8. Output 
-The `task4_output` file shows the chatbot running successfully in the terminal.
+## Output
+The `task1_output` file shows the game execution and winning output.
 
-## 9. Conclusion
-This project demonstrates basic Python programming, string handling, regular expressions, conditional logic, and interactive terminal applications.
-
+## Author
 Developed as part of the Datheon Python Programming Internship.
