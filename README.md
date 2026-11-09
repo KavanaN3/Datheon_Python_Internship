@@ -1,55 +1,57 @@
-# Task 1: Hangman Word Guessing Game
+# Task 2: Stock Portfolio Performance Tracker
 
-## Project Description
-This project is a simple console-based Hangman Word Guessing Game developed using Python. The player must guess a hidden word by entering one letter at a time.
+## 1. Project Description
+This project is a Python-based Stock Portfolio Performance Tracker. It calculates the total investment value, current market value, and profit or loss for stocks.
 
-The player gets a maximum of 6 incorrect attempts to guess the word correctly.
+## 2. Features
+- Accepts stock ticker symbols.
+- Takes buy price, quantity, and current price.
+- Calculates invested amount.
+- Calculates current market value.
+- Calculates profit or loss.
+- Generates a CSV portfolio report.
 
-## Features
-- Random word selection.
-- Maximum of 6 incorrect attempts.
-- Displays guessed letters.
-- Prevents duplicate guesses from reducing attempts.
-- Validates user input.
-- Displays a winning or losing message.
-
-## Technologies Used
+## 3. Technologies Used
 - Python 3
-- Random module
+- CSV module
 
-## Installation
-1. Install Python 3 on your computer.
-2. Download or clone this project.
-3. Open the project folder in VS Code.
+## 4. Installation Instructions
+1. Install Python 3.
+2. Open the project folder in Visual Studio Code.
+3. No additional Python packages are required.
 
-## How to Run
-Open the terminal in the project folder and execute:
+## 5. How to Run
+
+Open the terminal and execute:
 
 ```bash
-python hangman.py
+python portfolio_tracker.py
 ```
 
-Follow the instructions and enter one alphabet letter at a time.
+Enter the stock details when prompted.
 
-## Project Structure
+## 6. Project Structure
 
 ```text
-task1_hangman/
+task2_stock_portfolio/
 │
-├── hangman.py
-├── task1_output
+├── portfolio_tracker.py
+├── portfolio_report.csv
+├── task2_output
 └── README.md
 ```
 
-## How the Game Works
-1. The program selects a random word.
-2. The player guesses one letter at a time.
-3. Correct guesses reveal the matching letters.
-4. Incorrect guesses reduce the remaining attempts.
-5. The game ends when the player guesses the word or uses all 6 incorrect attempts.
+## 7. Output
+The program displays the portfolio summary, including total investment, market value, and profit or loss.
 
-## Output
-The `task1_output` file shows the game execution and winning output.
+The `portfolio_report.csv` file stores the stock details and calculated results.
 
-## Author
-Developed as part of the Datheon Python Programming Internship.
+## 8. Conclusion
+This project demonstrates Python programming, loops, lists, calculations, exception handling, and CSV file operations.
+
+## Internship Information
+Datheon Python Programming Internship
+
+**Task:** 2 – Stock Portfolio Performance Tracker
+
+**Author:** Kavana N

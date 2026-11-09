@@ -1,0 +1,36 @@
+PS C:\Users\Kavana N\OneDrive\Desktop\task2_stock_portfolio> python portfolio_tracker.py
+=============================================
+     STOCK PORTFOLIO PERFORMANCE TRACKER
+=============================================
+Enter the number of stocks: 2
+
+Enter details for Stock 1
+Stock ticker: TCS
+Buy price: 3000
+Quantity: 5
+Current price: 3200
+
+Enter details for Stock 2
+Stock ticker: INFY
+Buy price: 1500
+Quantity: 10
+Current price: 1400
+
+========== PORTFOLIO SUMMARY ==========
+
+Stock: TCS
+Invested Amount: Rs. 15000.00
+Current Value: Rs. 16000.00
+Profit/Loss: Rs. 1000.00
+
+Stock: INFY
+Invested Amount: Rs. 15000.00
+Current Value: Rs. 14000.00
+Profit/Loss: Rs. -1000.00
+
+========== TOTAL PORTFOLIO ==========
+Total Invested: Rs. 30000.00
+Total Market Value: Rs. 30000.00
+Total Profit/Loss: Rs. 0.00
+
+Report saved successfully as portfolio_report.csv
