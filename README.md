@@ -108,4 +108,41 @@ Datheon_Python_Internship/
 ├── task1_output
 │
 ├── portfolio_tracker.py
-├
+├── portfolio_report.csv
+├── task2_output
+│
+├── file_organizer.py
+├── task3_output
+│
+├── chatbot.py
+├── task4_output
+│
+└── README.md
+```
+
+## 6. Learning Outcomes
+
+Through these projects, I gained practical experience in:
+
+- Python fundamentals and control structures.
+- Functions, lists, and dictionaries.
+- Loops and conditional statements.
+- File and directory management.
+- Exception handling.
+- CSV file operations.
+- String processing and regular expressions.
+- Building interactive terminal applications.
+- Testing and debugging Python programs.
+- Using GitHub for project submission.
+
+## 7. Conclusion
+
+Completing these four projects helped me strengthen my Python programming skills and understand how programming concepts can be applied to practical problems.
+
+I would like to thank **Datheon** for providing this internship opportunity and helping me gain hands-on programming experience.
+
+---
+
+**Author:** Kavana N  
+**Internship:** Datheon Python Programming Internship  
+**GitHub Repository:** [Datheon_Python_Internship](https://github.com/KavanaN3/Datheon_Python_Internship)
