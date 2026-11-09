@@ -1,0 +1,28 @@
+PS C:\Users\Kavana N\OneDrive\Desktop\task3_file_organizer> New-Item -ItemType Directory -Path "$env:USERPROFILE\OneDrive\Desktop\sample_files" -Force
+
+
+    Directory: C:\Users\Kavana 
+    N\OneDrive\Desktop
+
+
+Mode                 LastWriteTime
+----                 -------------
+d-----        09-11-2026  04:58 PM
+
+
+PS C:\Users\Kavana N\OneDrive\Desktop\task3_file_organizer> Test-Path "$env:USERPROFILE\OneDrive\Desktop\sample_files"
+True
+PS C:\Users\Kavana N\OneDrive\Desktop\task3_file_organizer> python file_organizer.py
+Enter the folder path to organize: C:\Users\Kavana N\OneDrive\Desktop\sample_files
+
+File organization completed!
+Total files moved: 0
+PS C:\Users\Kavana N\OneDrive\Desktop\task3_file_organizer> python file_organizer.py
+Enter the folder path to organize: C:\Users\Kavana N\OneDrive\Desktop\sample_files
+Moved notes.txt to Documents
+Moved program.py to Python_Files
+
+File organization completed!
+Total files moved: 2
+PS C:\Users\Kavana N\OneDrive\Desktop\task3_file_organizer> 
+
