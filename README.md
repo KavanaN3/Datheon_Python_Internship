@@ -1,57 +1,111 @@
-# Task 2: Stock Portfolio Performance Tracker
+# Datheon Python Programming Internship
 
-## 1. Project Description
-This project is a Python-based Stock Portfolio Performance Tracker. It calculates the total investment value, current market value, and profit or loss for stocks.
+**Intern:** Kavana N  
+**Organization:** Datheon  
+**Domain:** Python Programming
 
-## 2. Features
+## 1. About the Internship
+
+This repository contains four Python projects completed as part of the Datheon Python Programming Internship. These projects demonstrate fundamental Python programming concepts, problem-solving, automation, file handling, calculations, and chatbot development.
+
+## 2. Projects Included
+
+### Task 1: Hangman Word Guessing Game
+
+A Python-based word guessing game in which users guess a randomly selected word one letter at a time.
+
+**Features:**
+- Random word selection.
+- Six incorrect attempts allowed.
+- Tracks guessed letters.
+- Prevents repeated guesses.
+- Displays win or loss messages.
+
+**Run the project:**
+```bash
+python hangman.py
+```
+
+### Task 2: Stock Portfolio Performance Tracker
+
+A Python application that calculates stock investment values and overall portfolio profit or loss.
+
+**Features:**
 - Accepts stock ticker symbols.
 - Takes buy price, quantity, and current price.
-- Calculates invested amount.
-- Calculates current market value.
+- Calculates invested amount and market value.
 - Calculates profit or loss.
-- Generates a CSV portfolio report.
+- Exports portfolio details to a CSV report.
 
-## 3. Technologies Used
-- Python 3
-- CSV module
-
-## 4. Installation Instructions
-1. Install Python 3.
-2. Open the project folder in Visual Studio Code.
-3. No additional Python packages are required.
-
-## 5. How to Run
-
-Open the terminal and execute:
-
+**Run the project:**
 ```bash
 python portfolio_tracker.py
 ```
 
-Enter the stock details when prompted.
+**Output:** `portfolio_report.csv`
 
-## 6. Project Structure
+### Task 3: Automated File Organizer
 
-```text
-task2_stock_portfolio/
-│
-├── portfolio_tracker.py
-├── portfolio_report.csv
-├── task2_output
-└── README.md
+A Python automation tool that organizes files into folders based on their file extensions.
+
+**Features:**
+- Automatically identifies file types.
+- Creates category folders.
+- Organizes images, documents, videos, audio, and Python files.
+- Handles duplicate filenames.
+- Handles file permission errors.
+- Displays the total number of files moved.
+
+**Run the project:**
+```bash
+python file_organizer.py
 ```
 
-## 7. Output
-The program displays the portfolio summary, including total investment, market value, and profit or loss.
+Enter the folder path when prompted.
 
-The `portfolio_report.csv` file stores the stock details and calculated results.
+### Task 4: Rule-Based Interactive Chatbot
 
-## 8. Conclusion
-This project demonstrates Python programming, loops, lists, calculations, exception handling, and CSV file operations.
+A simple rule-based chatbot that responds to user questions about courses, fees, placements, and working hours.
 
-## Internship Information
-Datheon Python Programming Internship
+**Features:**
+- Interactive terminal conversation.
+- Recognizes predefined keywords.
+- Provides predefined responses.
+- Handles unknown questions.
+- Supports an exit command.
 
-**Task:** 2 – Stock Portfolio Performance Tracker
+**Run the project:**
+```bash
+python chatbot.py
+```
 
-**Author:** Kavana N
+## 3. Technologies Used
+
+- Python 3
+- CSV module
+- OS module
+- Shutil module
+- Regular Expressions
+- VS Code
+
+## 4. Installation Instructions
+
+1. Install Python 3 on your computer.
+2. Install Visual Studio Code.
+3. Clone or download this repository.
+4. Open the repository folder in VS Code.
+5. Open the terminal.
+6. Run the required Python file using the commands provided above.
+
+No additional external Python packages are required for these projects.
+
+## 5. Project Architecture
+
+```text
+Datheon_Python_Internship/
+│
+├── hangman.py
+├── task1_output
+│
+├── portfolio_tracker.py
+├
